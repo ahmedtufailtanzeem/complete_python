@@ -20,3 +20,11 @@ print("Precedence and Associativity")
 print((2 + 3) * 4 / 2 % 7 + (7 + 4))
 # R --> L Associativity
 print(2 ** 3 ** 2)
+
+
+# Short hand
+
+x = 2
+x +=4
+x *=4
+print(x)
