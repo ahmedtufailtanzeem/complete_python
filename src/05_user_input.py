@@ -26,5 +26,5 @@ print(f"Hello {name}, You are just {age}!!!")
 
 """
 # Exercise
-x,y,z = input("Enter 3 space separated values: ").split(" ")
+x,y,z = input("Enter 3 space separated integer values: ").split(" ")
 print(f"Average of {x}, {y} and {z} is {(int(x)+int(y)+int(z))/3}")

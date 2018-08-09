@@ -89,3 +89,12 @@ print(name)
 # Concatenation using short hand assignment
 name += " Ahmed"
 print(name)
+
+
+# IN with Strings
+name = "tanzeem"
+name = ""
+if name and "tan" in name: # Check in only if name is non empty
+	print("You have sin/cos in your name")
+else:
+	print("You have nothing...")
