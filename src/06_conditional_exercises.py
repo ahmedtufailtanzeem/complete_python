@@ -21,6 +21,7 @@ else:
 	print("Sorry! No luck this time...")
 """
 
+"""
 print("Check Movie price")
 
 age = int(input("Enter your age: "))
@@ -33,3 +34,32 @@ elif 11 <= age <= 60:
 	print("You pay 200")
 else:
 	print("You pay 300")
+"""
+
+max = 10
+for i in range(10):
+	if i == 5:
+		break
+	if i % 2 == 0:
+		continue
+	print(i)
+
+number, sum = "9876", 0
+for i in number:
+	sum += int(i)
+
+print(sum)
+import random
+
+tries = 0
+winning_number = random.randint(1, 100)
+while True:
+	your_guess = int(input("Guess a number between 1 - 100: "))
+	tries += 1
+	if winning_number == your_guess:
+		print("You win!!! after %d tries" % tries)
+		break
+	elif your_guess < winning_number:
+		print("Too Low...")
+	else:
+		print("Too High")
