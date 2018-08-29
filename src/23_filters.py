@@ -21,6 +21,8 @@ lengths = map(len, ["a", "ab", "abc", "abcd", "abcde"])
 for i in lengths:
 	print(i, end=" ")
 
-# Below won't print since it is Iterator
+# Below won't print since it is Iterator and already reached the end using next-->next
 for i in lengths:
 	print(i, end=" ")
+
+# cast iterator intoIterable using list, tuple

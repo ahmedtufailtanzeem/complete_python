@@ -49,6 +49,7 @@ person_info(name="tanzeem", age=31)
 # dictionary unpacking using **
 person_info(**{'name': "tanzeem", 'age': 31})
 
+
 # Follow PADK rule to remember correct order
 def func(positional, *args, named='default', **kwargs):
 	pass
